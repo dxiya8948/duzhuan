@@ -1,0 +1,111 @@
+.container {
+  width: 650rpx;
+  margin: 0rpx auto;
+  font-size: 28rpx;
+}
+.container .Article {
+  padding: 10px;
+  margin-top: 80rpx;
+}
+.container .Article .usb,
+.container .Article .usb_ready {
+  background-color: #656d78;
+  width: 215px;
+  height: 215px;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+}
+.container .Article .usb .usb_img,
+.container .Article .usb_ready .usb_img {
+  margin: 0 auto;
+  display: block;
+  width: 215px;
+  height: 215px;
+}
+.container .Article .usb .propress,
+.container .Article .usb_ready .propress {
+  position: absolute;
+  top: -24rpx;
+  left: -24rpx;
+}
+.container .Article .usb_ready {
+  background-color: #0f9f50;
+}
+.container .Article .uploadtitle {
+  margin-top: 40rpx;
+  text-align: center;
+  color: #c0c0c0;
+  font-size: 26rpx;
+}
+.container .Article .addBox {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  position: relative;
+  border: 1px dashed #656d78;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #fafafa;
+  margin-top: 10px;
+}
+.container .Article .filesBox {
+  margin-top: 28rpx;
+}
+.container .Article .filesBox .fileslist {
+  margin-top: 8px;
+  line-height: 42rpx;
+}
+.container .Article .filesBox .fileslist .upfileico {
+  width: 42rpx;
+  height: 40rpx;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10rpx;
+}
+.container .Article .filesBox .fileslist .upname {
+  font-size: 26rpx;
+  height: 42rpx;
+  line-height: 42rpx;
+  color: #333333;
+  width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+.container .Article .filesBox .fileslist .upclose {
+  width: 40rpx;
+  height: 40rpx;
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 3px;
+}
+.container .Article .myfiles {
+  margin-top: 30rpx;
+  padding: 8rpx;
+  border: 1px solid #cfcfcf;
+  border-radius: 20rpx;
+}
+.container .upload {
+  margin-top: 30rpx;
+}
+.container .mainArea {
+  width: 500rpx;
+  height: 300rpx;
+  background-color: #fff;
+  border-radius: 34rpx;
+  padding: 20rpx;
+}
+.container .mainArea .picture {
+  width: 60%;
+  margin-top: 60rpx;
+  font-size: 30rpx;
+}
+.container .mainArea .wxFile {
+  width: 60%;
+  margin-top: 40rpx;
+  font-size: 30rpx;
+}
+

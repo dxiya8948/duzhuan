@@ -1,0 +1,45 @@
+#login {
+  margin: 90rpx auto 0rpx;
+  padding: 20rpx 20rpx;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 650rpx;
+  height: 400rpx;
+  border-radius: 10rpx;
+}
+#login .img_box {
+  width: 100%;
+  height: 200rpx;
+  position: relative;
+}
+#login .img_box .logo {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  position: absolute;
+  top: 0rpx;
+  left: 225rpx;
+  width: 200rpx;
+  height: 200rpx;
+}
+#login .img_box .logo2 {
+  position: absolute;
+  width: 185rpx;
+  height: 185rpx;
+  top: 20rpx;
+  left: 235rpx;
+  border-radius: 50%;
+}
+#login .nick {
+  display: block;
+  font-size: 20px;
+  margin-top: 50rpx;
+}
+#login .welcome {
+  display: block;
+  font-size: 16px;
+  margin-top: 20rpx;
+}
+#login .login_btn {
+  margin-top: 80rpx;
+}
+

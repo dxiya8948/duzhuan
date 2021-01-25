@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "时间盘",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-popup-message": "/components/uni-popup-message/uni-popup-message",
+    "uni-transition": "/components/uni-transition/uni-transition",
+    "cmd-progress": "/components/cmd-progress/cmd-progress"
+  }
+}

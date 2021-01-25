@@ -1,0 +1,19 @@
+.container {
+  width: 650rpx;
+  margin: 25rpx auto;
+  font-size: 28rpx;
+}
+.container .Article .Article-main {
+  width: 650rpx;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+  word-break: break-all;
+}
+.container .Article .Article-input {
+  width: 650rpx;
+}
+.container .Article .Article-input .uni-easyinput__content-textarea {
+  height: 400rpx;
+}
+

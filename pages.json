@@ -1,0 +1,28 @@
+{
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText": "登录",
+			"enablePullDownRefresh": false
+		}
+	},{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "时间盘"
+		}
+	} ,{
+		"path": "pages/write/index",
+		"style": {
+			"navigationBarTitleText": "杜撰"
+		}
+	} ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

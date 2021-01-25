@@ -1,0 +1,41 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"properties": {
+		"_id": {
+			"description": "存储文档 ID（用户 ID），系统自动生成"
+		},
+		"nickname": {
+			"bsonType": "string",
+			"title": "昵称",
+			"description": "用户昵称",
+			"trim": "both"
+		},
+		"wx_openid": {
+			"bsonType": "object",
+			"description": "微信各个平台openid",
+			"properties": {
+				"app-plus": {
+					"bsonType": "string",
+					"description": "app平台微信openid"
+				},
+				"mp-weixin": {
+					"bsonType": "string",
+					"description": "微信小程序平台openid"
+				}
+			}
+		},
+		"ali_openid": {
+			"bsonType": "string",
+			"description": "支付宝平台openid"
+		},
+		"files": {
+			"bsonType": "array",
+			"description": "用户上传的文件ID"
+		},
+		"uid": {
+			"bsonType": "string",
+			"description": "用户ID"
+		}
+	}
+}
